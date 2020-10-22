@@ -1,0 +1,148 @@
+#paineis-sobre {
+    margin-top: 20px;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #171d2d;
+    color: #fff;
+}
+
+header {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+section {
+    margin-top: 5rem;
+}
+
+strong h1 {
+    margin-bottom: 3rem;
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+.navbar-default {
+    background-color: #171d2d;
+    color: #fff;
+}
+
+.navbar-header {
+    height: 120px;
+    background-color: #c2342d;
+}
+
+.navbar-header a img {
+    max-width: 150px;
+}
+
+ul.nav {
+    margin-top: 3.5rem;
+    margin-left: 5rem;
+    color: #fff;
+}
+
+ul li a {
+    color: #fff !important;
+}
+
+ul li a:hover {
+    color: #ee4037 !important;
+}
+
+.subsolo-banner {
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+.btn-primary {
+    border: solid 1px #fff;
+    border-left: solid 5px #fff;
+    background: linear-gradient(to right, #fff 50%, #c2342d 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+}
+
+.btn-primary:hover {
+    background-color: #fff;
+    color: #c2342d;
+    border-color: #fff;
+    background-position: left bottom;
+}
+
+.panel-heading {
+    cursor: pointer;
+    color: #000;
+    height: 5rem;
+}
+
+.panel-body {
+    color: #000;
+}
+
+.titulo-depoimentos {
+    background-color: #c2342d;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #FFF;
+    margin-bottom: 0;
+    font-size: 24px;
+}
+
+.contato-select,
+.grupo-radio {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.grupo-radio .radio:first-child {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0;
+}
+
+@media(min-width: 768px) {
+    #paineis-sobre {
+        margin-top: 0;
+    }
+}
+
+@media(min-width: 992px) {
+    .subsolo-banner {
+        left: 0;
+        transform: translate(0, -80%);
+        width: 50%;
+    }
+    .subsolo-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
+}
